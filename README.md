@@ -14,50 +14,23 @@ The statistical testing suites used are:
 7. **Dieharder**
 8. **NIST STS**
 
-All statistical testing results are stored in the `results` folder.
+All statistical testing results are stored in their respective RNG folder.
 
 #### Results Folder Structure
 
-The `results` folder contains three subfolders, one for each RNG. Each subfolder contains ten subfolders for each of the ten 10Gbit samples of data. Each sample subfolder contains statistical testing output from each test as well as a `time` file that has runtimes for all tests.
+Each subfolder contains ten subfolders for each of the ten 10Gbit samples of data. Each sample subfolder contains statistical testing output from each test as well as a `time` file that has runtimes for all respective tests.
 ```bash
-results/
+{rng_name}/
 │
-├── secrets_rng_results/
-│ ├── secrets_0
-│ │ ├── test_ent.log
-│ │ ├── test_practrand.log
-│ │ ├── ...
-│ │ └── time
+├── {rng_name}_0
+│ ├── test_ent.log
+│ ├── test_practrand.log
 │ ├── ...
-│ └── secrets_9
-│ │ ├── test_ent.log
-│ │ ├── test_practrand.log
-│ │ ├── ...
-│ │ └── time
-│
-├── wolfram_rng_results/
-│ ├── wolfram_0
-│ │ ├── test_ent.log
-│ │ ├── test_practrand.log
-│ │ ├── ...
-│ │ └── time
+│ └── time
+├── ...
+└── {rng_name}_9
+│ ├── test_ent.log
+│ ├── test_practrand.log
 │ ├── ...
-│ └── wolfram_9
-│ │ ├── test_ent.log
-│ │ ├── test_practrand.log
-│ │ ├── ...
-│ │ └── time
-│
-└── sparse_rng_results/
-│ ├── sparse_0
-│ │ ├── test_ent.log
-│ │ ├── test_practrand.log
-│ │ ├── ...
-│ │ └── time
-│ ├── ...
-│ └── sparse_9
-│ │ ├── test_ent.log
-│ │ ├── test_practrand.log
-│ │ ├── ...
-│ │ └── time
+│ └── time
 ```

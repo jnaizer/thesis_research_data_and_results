@@ -1,0 +1,26 @@
+#=============================================================================#
+#            dieharder version 3.31.1 Copyright 2003 Robert G. Brown          #
+#=============================================================================#
+   rng_name    |rands/second|   Seed   |
+stdin_input_raw|  7.80e+06  |3077545130|
+#=============================================================================#
+        test_name   |ntup| tsamples |psamples|  p-value |Assessment
+#=============================================================================#
+   diehard_birthdays|   0|       100|     100|0.12079516|  PASSED  
+      diehard_operm5|   0|   1000000|     100|0.53612554|  PASSED  
+  diehard_rank_32x32|   0|     40000|     100|0.30654636|  PASSED  
+    diehard_rank_6x8|   0|    100000|     100|0.10482475|  PASSED  
+   diehard_bitstream|   0|   2097152|     100|0.28095955|  PASSED  
+        diehard_opso|   0|   2097152|     100|0.49963201|  PASSED  
+        diehard_oqso|   0|   2097152|     100|0.30191315|  PASSED  
+         diehard_dna|   0|   2097152|     100|0.39860992|  PASSED  
+diehard_count_1s_str|   0|    256000|     100|0.30136728|  PASSED  
+diehard_count_1s_byt|   0|    256000|     100|0.98080774|  PASSED  
+ diehard_parking_lot|   0|     12000|     100|0.66912419|  PASSED  
+    diehard_2dsphere|   2|      8000|     100|0.71579104|  PASSED  
+    diehard_3dsphere|   3|      4000|     100|0.40267232|  PASSED  
+     diehard_squeeze|   0|    100000|     100|0.17056739|  PASSED  
+        diehard_sums|   0|       100|     100|0.24491616|  PASSED  
+        diehard_runs|   0|    100000|     100|0.50081435|  PASSED  
+        diehard_runs|   0|    100000|     100|0.92522169|  PASSED  
+       diehard_craps|   0|    200000|     100|0.43055778|  PASSED  

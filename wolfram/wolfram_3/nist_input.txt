@@ -1,0 +1,6 @@
+0
+/random_test/data/wolfram/wolfram_3/wolfram_3.bin
+1
+0
+100
+1

@@ -1,0 +1,888 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 10000000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 30,  n = 9989984,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 9989984
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /   27515.35
+       EColl = n^2 / (2k) =  181.5347429
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   27515.35
+       Expected number of collisions = Mu =     181.53
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     5445.94
+Observed number of collisions         :     5659
+p-value of test                       :  2.1e-3
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    8246037514459
+  j =  1                              :        299688202
+  j =  2                              :             5659
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:30.12
+
+Generator state:
+ 299699520  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 1977848,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   23.00
+p-value of test                       :    0.16
+
+-----------------------------------------------
+CPU time used                    :  00:01:13.79
+
+Generator state:
+ 3164556800  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 988924,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :   10.00
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.64
+
+Generator state:
+ 3164556800  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 312500000,   K = 312500000,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =   9375000000 bits
+   Q = 312500000 initialization blocks
+   K = 312500000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.81
+p-value of test                       :    0.79
+
+-----------------------------------------------
+CPU time used                    :  00:00:37.56
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 209984,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   11
+Chi2 statistic for size of jumps      :    6.30
+p-value of test                       :    0.85
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -0.56
+p-value of test                       :    0.71
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:31.21
+
+Generator state:
+ 209984  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 268435456,  r =  0,   s =   32,   k =   28
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.21
+p-value of test                       :    0.58
+
+-----------------------------------------------
+CPU time used                    :  00:00:47.50
+
+Generator state:
+ 268435456  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.85
+p-value of test                       :    0.80
+
+-----------------------------------------------
+CPU time used                    :  00:00:07.23
+
+Generator state:
+ 1048576  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 300000,  n = 16384,  r =  0,   s =   32,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 9.14e-3
+p-value of test                       :    0.50
+
+Kolmogorov-Smirnov- statistic = D-    : 2.91e-3
+p-value of test                       :    0.93
+
+Anderson-Darling statistic = A2       :    0.47
+p-value of test                       :    0.78
+
+-----------------------------------------------
+CPU time used                    :  00:03:24.37
+
+Generator state:
+ 4924800000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 600,  r =  0,   s = 32,   L = 16666656
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    3.04
+p-value of test                       :    0.93
+
+-----------------------------------------------
+Global longest run of 1               :   31.00
+p-value of test                       :    0.69
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:39.09
+
+Generator state:
+ 9999993600  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 312500000,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  301
+Chi-square statistic                  :  308.76
+p-value of test                       :    0.37
+
+-----------------------------------------------
+CPU time used                    :  00:00:46.50
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 312500000,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   28
+Chi-square statistic                  :   27.51
+p-value of test                       :    0.49
+
+-----------------------------------------------
+CPU time used                    :  00:00:19.50
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 312500000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.47
+p-value of test                       :    0.93
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.52
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 156250000,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.59
+p-value of test                       :    0.28
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.85
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 78125000,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.12
+p-value of test                       :    0.87
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.05
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 312500000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  269
+Chi-square statistic                  :  264.48
+p-value of test                       :    0.57
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.79
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 156250000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  585
+Chi-square statistic                  :  562.19
+p-value of test                       :    0.74
+
+-----------------------------------------------
+CPU time used                    :  00:00:22.79
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 78125000,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 1093
+Chi-square statistic                  : 1078.27
+p-value of test                       :    0.62
+
+-----------------------------------------------
+CPU time used                    :  00:00:22.31
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 11,  n = 909090849,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.055
+p-value of test                       :    0.91
+
+Kolmogorov-Smirnov- statistic = D-    :    0.39
+p-value of test                       :    0.03
+
+Anderson-Darling statistic = A2       :    2.02
+p-value of test                       :    0.09
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    1.64
+p-value of test                       :    0.05
+
+Sample variance                       :    0.83
+p-value of test                       :    0.60
+
+-----------------------------------------------
+CPU time used                    :  00:00:39.97
+
+Generator state:
+ 9999999680  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 11,  n = 909090850,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.24
+p-value of test                       :    0.25
+
+Kolmogorov-Smirnov- statistic = D-    :    0.13
+p-value of test                       :    0.65
+
+Anderson-Darling statistic = A2       :    0.64
+p-value of test                       :    0.60
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -0.41
+p-value of test                       :    0.66
+
+Sample variance                       :    0.88
+p-value of test                       :    0.56
+
+-----------------------------------------------
+CPU time used                    :  00:00:38.93
+
+Generator state:
+ 9999999680  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  3,  n = 666666666,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Test results for the number of runs:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.58
+p-value of test                       :    0.09
+
+Kolmogorov-Smirnov- statistic = D-    :   0.032
+p-value of test                       :    0.97
+
+Anderson-Darling statistic = A2       :    1.87
+p-value of test                       :    0.11
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  150
+Chi-square statistic                  :  120.39
+p-value of test                       :    0.96
+
+
+-----------------------------------------------
+Test results for the number of bits:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.60
+p-value of test                       :    0.07
+
+Kolmogorov-Smirnov- statistic = D-    :   0.099
+p-value of test                       :    0.88
+
+Anderson-Darling statistic = A2       :    1.57
+p-value of test                       :    0.16
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -1.42
+p-value of test                       :    0.92
+
+Sample variance                       :    0.27
+p-value of test                       :    0.76
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:38.26
+
+Generator state:
+ 7999819840  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 9765625,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :    3.32
+p-value of test                       :    0.51
+
+-----------------------------------------------
+CPU time used                    :  00:02:17.21
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 97656,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    3.96
+p-value of test                       :    0.27
+
+-----------------------------------------------
+CPU time used                    :  00:02:46.98
+
+Generator state:
+ 9999974400  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 9536,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    6.50
+p-value of test                       :    0.09
+
+-----------------------------------------------
+CPU time used                    :  00:05:33.21
+
+Generator state:
+ 9999220736  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 78125000,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   58
+ChiSquare statistic                   :   40.42
+p-value of test                       :    0.96
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   57
+ChiSquare statistic                   :   68.65
+p-value of test                       :    0.14
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   46.44
+p-value of test                       :    0.95
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   46
+ChiSquare statistic                   :   47.92
+p-value of test                       :    0.39
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   29
+ChiSquare statistic                   :   28.67
+p-value of test                       :    0.48
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:11.21
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 9765625,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  146
+ChiSquare statistic                   :  146.56
+p-value of test                       :    0.47
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  147
+ChiSquare statistic                   :  114.29
+p-value of test                       :    0.98
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  506.37
+p-value of test                       :    0.56
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  138
+ChiSquare statistic                   :  148.56
+p-value of test                       :    0.25
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   75
+ChiSquare statistic                   :   79.66
+p-value of test                       :    0.33
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:50.94
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 998402,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  371.68
+p-value of test                       :    0.66
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  392.23
+p-value of test                       :    0.37
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5008
+ChiSquare statistic                   : 4955.74
+p-value of test                       :    0.70
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  378
+ChiSquare statistic                   :  397.44
+p-value of test                       :    0.24
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  200
+ChiSquare statistic                   :  224.13
+p-value of test                       :    0.12
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:40.71
+
+Generator state:
+ 9999994432  bits have been read.
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ File:             /random_test/data/wolfram/wolfram_5/wolfram_5.bin
+ Number of bits:   10000000000
+ Number of statistics:  40
+ Total CPU time:   00:38:23.11
+
+ All tests were passed
+
+
+

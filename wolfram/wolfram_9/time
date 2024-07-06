@@ -1,0 +1,48 @@
+
+ENT
+
+real	1m36.856s
+user	1m31.913s
+sys	0m4.641s
+
+PractRand
+
+real	3m18.903s
+user	3m11.880s
+sys	0m6.619s
+
+SmallCrush
+
+real	0m37.806s
+user	0m35.857s
+sys	0m1.750s
+
+Crush
+
+real	125m17.316s
+user	121m21.591s
+sys	3m47.086s
+
+Alphabit
+
+real	9m33.613s
+user	9m22.014s
+sys	0m10.807s
+
+Rabbit
+
+real	40m26.255s
+user	40m4.477s
+sys	0m19.799s
+
+Dieharder
+
+real	15m58.758s
+user	14m1.578s
+sys	2m42.044s
+
+NIST
+
+real	23m6.364s
+user	22m55.949s
+sys	0m8.998s

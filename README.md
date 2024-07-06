@@ -1,6 +1,6 @@
 ## Overview
 
-This repository contains the results for my M.S. in Computer Science Thesis. All results were collected via usage of the CLI tool, `cryptoguard`, that I developed as a part of my Thesis. This tool can be found [here](https://github.com/jnaizer/cryptoguard).
+This repository contains all of the statistical testing results for my M.S. in Computer Science Thesis. All results were collected via usage of the CLI tool, `cryptoguard`, that I developed as a part of my Thesis. This tool can be found [here](https://github.com/jnaizer/cryptoguard).
 
 ## Results
 The statistical testing suites used are:

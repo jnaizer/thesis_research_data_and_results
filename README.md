@@ -18,7 +18,7 @@ All statistical testing results are stored in their respective RNG folder.
 
 #### Results Folder Structure
 
-Each subfolder contains ten subfolders for each of the ten 10Gbit samples of data. Each sample subfolder contains statistical testing output from each test as well as a `time` file that has runtimes for all respective tests.
+Each RNG folder contains ten subfolders representing each of the ten 10Gbit samples of data. Each of the ten subfolders contains the statistical testing output from each test as well as a `time` file that has runtimes for all respective tests.
 ```bash
 {rng_name}/
 │

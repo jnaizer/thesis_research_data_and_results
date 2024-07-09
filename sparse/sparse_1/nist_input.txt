@@ -1,0 +1,6 @@
+0
+/random_test/data/sparse/sparse_1/sparse_1.bin
+1
+0
+100
+1

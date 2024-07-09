@@ -1,0 +1,424 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Alphabit:   nb = 10000000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/sparse/sparse_4/sparse_4.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 11,  n = 909090880,  r =  0,   s = 32,   L =    2,
+       Sparse =  FALSE
+
+       Number of bits = n = 909090880
+       Number of cells = 2^L =                  4
+       Expected number per cell =  2.2727272e+08
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  5.5000005e-10,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    : 9.70e-3
+p-value of test                       :    0.99
+
+Kolmogorov-Smirnov- statistic = D-    :    0.33
+p-value of test                       :    0.07
+
+Anderson-Darling statistic = A2       :    1.92
+p-value of test                       :    0.10
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    2.06
+p-value of test                       :    0.02
+
+Standardized empirical correlation    :    1.57
+p-value of test                       :    0.06
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:39.75
+
+Generator state:
+ 9999999680  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/sparse/sparse_4/sparse_4.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 11,  n = 909090880,  r =  0,   s = 32,   L =    4,
+       Sparse =  FALSE
+
+       Number of bits = n = 909090880
+       Number of cells = 2^L =                 16
+       Expected number per cell =    56818180
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  3.8500003e-09,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.10
+p-value of test                       :    0.74
+
+Kolmogorov-Smirnov- statistic = D-    :    0.21
+p-value of test                       :    0.34
+
+Anderson-Darling statistic = A2       :    0.62
+p-value of test                       :    0.63
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    0.64
+p-value of test                       :    0.26
+
+Standardized empirical correlation    :   -0.69
+p-value of test                       :    0.76
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:39.31
+
+Generator state:
+ 9999999680  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/sparse/sparse_4/sparse_4.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 11,  n = 909090880,  r =  0,   s = 32,   L =    8,
+       Sparse =  FALSE
+
+       Number of bits = n = 909090880
+       Number of cells = 2^L =                256
+       Expected number per cell =   3551136.2
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  6.9850006e-08,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.15
+p-value of test                       :    0.57
+
+Kolmogorov-Smirnov- statistic = D-    :    0.17
+p-value of test                       :    0.46
+
+Anderson-Darling statistic = A2       :    0.38
+p-value of test                       :    0.87
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    0.21
+p-value of test                       :    0.42
+
+Standardized empirical correlation    :   -0.53
+p-value of test                       :    0.70
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:38.68
+
+Generator state:
+ 9999999680  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/sparse/sparse_4/sparse_4.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 11,  n = 909090880,  r =  0,   s = 32,   L =   16,
+       Sparse =  FALSE
+
+       Number of bits = n = 909090880
+       Number of cells = 2^L =              65536
+       Expected number per cell =   13871.626
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  1.8021851e-05,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.27
+p-value of test                       :    0.18
+
+Kolmogorov-Smirnov- statistic = D-    :   0.067
+p-value of test                       :    0.87
+
+Anderson-Darling statistic = A2       :    0.84
+p-value of test                       :    0.45
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -0.95
+p-value of test                       :    0.83
+
+Standardized empirical correlation    :   -1.87
+p-value of test                       :    0.97
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:30.43
+
+Generator state:
+ 9999999680  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/sparse/sparse_4/sparse_4.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 312500000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  269
+Chi-square statistic                  :  254.91
+p-value of test                       :    0.72
+
+-----------------------------------------------
+CPU time used                    :  00:00:25.11
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/sparse/sparse_4/sparse_4.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 156250000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  585
+Chi-square statistic                  :  574.25
+p-value of test                       :    0.62
+
+-----------------------------------------------
+CPU time used                    :  00:00:22.33
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/sparse/sparse_4/sparse_4.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 312500000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.59
+p-value of test                       :    0.28
+
+-----------------------------------------------
+CPU time used                    :  00:00:21.56
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/sparse/sparse_4/sparse_4.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 156250000,  r =  0,   s = 32,   L0 =   64,   L1 =   64
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   40
+ChiSquare statistic                   :   47.88
+p-value of test                       :    0.18
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   41
+ChiSquare statistic                   :   44.71
+p-value of test                       :    0.32
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   32
+ChiSquare statistic                   :   25.86
+p-value of test                       :    0.77
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   29
+ChiSquare statistic                   :   19.86
+p-value of test                       :    0.90
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   20
+ChiSquare statistic                   :   14.36
+p-value of test                       :    0.81
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:27.11
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = d13df2ffc2fb, Linux
+
+ufile_CreateReadBin:   /random_test/data/sparse/sparse_4/sparse_4.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 31250000,  r =  0,   s = 32,   L0 =  320,   L1 =  320
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   88
+ChiSquare statistic                   :   76.73
+p-value of test                       :    0.80
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   88
+ChiSquare statistic                   :   73.26
+p-value of test                       :    0.87
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  160
+ChiSquare statistic                   :  202.09
+p-value of test                       :    0.01
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   77
+ChiSquare statistic                   :   92.03
+p-value of test                       :    0.12
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   44
+ChiSquare statistic                   :   46.30
+p-value of test                       :    0.38
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:01.23
+
+Generator state:
+ 10000000000  bits have been read.
+
+
+
+
+
+========= Summary results of Alphabit =========
+
+ Version:          TestU01 1.2.3
+ File:             /random_test/data/sparse/sparse_4/sparse_4.bin
+ Number of bits:   10000000000
+ Number of statistics:  17
+ Total CPU time:   00:09:05.52
+
+ All tests were passed
+
+
+

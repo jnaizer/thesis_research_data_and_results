@@ -34,3 +34,6 @@ Each RNG folder contains ten subfolders representing each of the ten 10Gbit samp
 │ ├── ...
 │ └── time
 ```
+
+## Acknowledgements
+These results were created as a part of my M.S. in Computer Science Thesis under my advisor Dr. Khodakhast Bibak in the Department of Computer Science & Software Engineering at Miami University (Oxford, OH).
